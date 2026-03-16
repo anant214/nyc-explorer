@@ -1,0 +1,410 @@
+[
+  {
+    "name": "Mama's TOO!",
+    "area": "West Village & Upper West Side",
+    "cuisine": "Pizza",
+    "price": "$$",
+    "tip": "Order the Angry Nonna (hot soppressata & hot honey) or Cacio e Pepe (4 cheeses and cracked black pepper) slice for their signature thick-crust Detroit-style pizza.",
+    "source": "instagram"
+  },
+  {
+    "name": "Ceres",
+    "area": "Nolita",
+    "cuisine": "Pizza",
+    "price": "$$",
+    "tip": "They only sell pizzas by the whole pie, so bring friends — must-try is the Nduja pizza with creamy burrata and aged balsamic, or the mushroom pizza with crème fraiche and onion.",
+    "source": "instagram"
+  },
+  {
+    "name": "Cello's Pizzeria",
+    "area": "East Village",
+    "cuisine": "Pizza",
+    "price": "$$",
+    "tip": "Order the burrata slice — crispy crust with fresh tomato sauce, garlic, and creamy burrata on top.",
+    "source": "instagram"
+  },
+  {
+    "name": "Fini Pizza",
+    "area": "Williamsburg",
+    "cuisine": "Pizza",
+    "price": "$$",
+    "tip": "Try the hot long peppers and shallot slice for the standout flavour combination at this thin-slice spot.",
+    "source": "instagram"
+  },
+  {
+    "name": "L'industrie",
+    "area": "West Village / Williamsburg",
+    "cuisine": "Pizza",
+    "price": "$$",
+    "tip": "Don't miss the fig jam and bacon slice — they have locations in both West Village and Williamsburg.",
+    "source": "instagram"
+  },
+  {
+    "name": "Ace's Pizza",
+    "area": "Williamsburg",
+    "cuisine": "Pizza",
+    "price": "$$",
+    "tip": "Order the Spicy Boy for a Detroit-style thick crust topped with hot honey and burrata.",
+    "source": "instagram"
+  },
+  {
+    "name": "Una Pizza Napoletana",
+    "area": "Lower East Side",
+    "cuisine": "Pizza",
+    "price": "$$$",
+    "tip": "Known for fluffy Neapolitan-style pies with ultra-fresh tomato sauce — expect whole pies only, not slices.",
+    "source": "instagram"
+  },
+  {
+    "name": "Rubirosa",
+    "area": "Nolita",
+    "cuisine": "Pizza",
+    "price": "$$",
+    "tip": "Famous for their tie-dye pizza drizzled with pesto and vodka sauce — go for the sit-down experience and expect a wait.",
+    "source": "instagram"
+  },
+  {
+    "name": "Diamond Slice",
+    "area": "Greenpoint",
+    "cuisine": "Pizza",
+    "price": "$",
+    "tip": "An underrated slice shop with creative flavours like Elote and French Onion available in both thin crispy and thick square cuts.",
+    "source": "instagram"
+  },
+  {
+    "name": "Radio Bakery NYC",
+    "area": "Brooklyn",
+    "cuisine": "Bakery",
+    "price": "$$",
+    "tip": "Their sourdough tomato focaccia hits the counter every day at 10am — arrive early before it sells out.",
+    "source": "instagram"
+  },
+  {
+    "name": "Not A Normal Market",
+    "area": "Fort Greene, Brooklyn",
+    "cuisine": "Vintage Market",
+    "price": "$$",
+    "tip": "Located at One Hanson Place in Brooklyn, this pop-up vintage market sells authentic designer bags, accessories, and vintage clothing.",
+    "source": "instagram"
+  },
+  {
+    "name": "Brooklyn Flea (Dumbo)",
+    "area": "Dumbo, Brooklyn",
+    "cuisine": "Flea Market",
+    "price": "$",
+    "tip": "Open every Saturday and Sunday 10am–5pm year-round, making it a reliable weekend activity in NYC.",
+    "source": "instagram"
+  },
+  {
+    "name": "Moma Design Store",
+    "area": "Midtown",
+    "cuisine": "Shopping / Gift Store",
+    "price": "$$",
+    "tip": "Located at 44 W 53rd St, this store stocks creative novelty gifts like food-themed socks by Eat My Socks alongside design objects and Jellycat plushies.",
+    "source": "instagram"
+  },
+  {
+    "name": "Moma Design Store x Jellycat",
+    "area": "Midtown",
+    "cuisine": "Attraction / Pop-up",
+    "price": "$$",
+    "tip": "The Jellycat pop-up at the Moma Design Store (44 W 53rd St) was open until March 29, with a second location at 81 Spring St in SoHo.",
+    "source": "instagram"
+  },
+  {
+    "name": "Nowon",
+    "area": "East Village",
+    "cuisine": "Korean-American Fusion",
+    "price": "$$",
+    "tip": "Located at 507 E 6th St, Nowon is praised as one of the best value spots in NYC and is also a great option for birthday dinners.",
+    "source": "instagram"
+  },
+  {
+    "name": "Summit One Vanderbilt Observatory",
+    "area": "Midtown",
+    "cuisine": "Attraction",
+    "price": "$$$",
+    "tip": "The caption tags this as the location and says the sunset view from here is 'just unreal'.",
+    "source": "instagram"
+  },
+  {
+    "name": "Roosevelt Island Tram",
+    "area": "Roosevelt Island",
+    "cuisine": "Attraction",
+    "price": "$",
+    "tip": "You can ride this cable car between Manhattan and Roosevelt Island for just $3.90 using a MetroCard, with spectacular city views.",
+    "source": "instagram"
+  },
+  {
+    "name": "Dim Sum Sam",
+    "area": "New York City",
+    "cuisine": "Chinese / Dim Sum",
+    "price": "$$",
+    "tip": "Their signature Shanghai Juicy Pork Dumplings (xiao long bao) are the must-order item — bite carefully to avoid the hot broth.",
+    "source": "instagram"
+  },
+  {
+    "name": "Greenwich Letterpress",
+    "area": "West Village",
+    "cuisine": "Stationery Store",
+    "price": "$$",
+    "tip": "A charming stationery shop in the West Village known for letterpress cards and paper goods, perfect for unique souvenirs.",
+    "source": "instagram"
+  },
+  {
+    "name": "East Village Postal",
+    "area": "East Village",
+    "cuisine": "Stationery Store",
+    "price": "$$",
+    "tip": "A neighbourhood stationery and postal goods store in the East Village worth visiting for notebook lovers.",
+    "source": "instagram"
+  },
+  {
+    "name": "Cornershop Hightide",
+    "area": "Brooklyn",
+    "cuisine": "Stationery Store",
+    "price": "$$",
+    "tip": "A Brooklyn stationery store stocking the popular Japanese Hightide brand alongside other curated paper goods.",
+    "source": "instagram"
+  },
+  {
+    "name": "Goods For The Study",
+    "area": "Greenwich Village",
+    "cuisine": "Stationery Store",
+    "price": "$$",
+    "tip": "A well-curated stationery and office supply shop with a broad selection of pens, notebooks, and desk accessories.",
+    "source": "instagram"
+  },
+  {
+    "name": "Yoseka Stationery",
+    "area": "Ridgewood / Queens",
+    "cuisine": "Stationery Store",
+    "price": "$$",
+    "tip": "A beloved Japanese-style stationery shop with an impressive selection of fountain pens and writing supplies.",
+    "source": "instagram"
+  },
+  {
+    "name": "The Analog Stationer",
+    "area": "New York City",
+    "cuisine": "Stationery Store",
+    "price": "$$",
+    "tip": "Specialises in high-end pens and analog writing tools — ideal for fine-point pen enthusiasts.",
+    "source": "instagram"
+  },
+  {
+    "name": "Mogutable",
+    "area": "New York City",
+    "cuisine": "Lifestyle / Trinket Store",
+    "price": "$$",
+    "tip": "A charming trinket shop selling teapots, ceramics, tote bags, candles and matcha goods — great for unique gifts.",
+    "source": "instagram"
+  },
+  {
+    "name": "Loaf on Paper",
+    "area": "NYC (exact neighbourhood unconfirmed)",
+    "cuisine": "Shop / Stationery Store",
+    "price": "$",
+    "tip": "A charming stationery and craft supply shop stocked with sticker sheets, rubber stamps, washi tape, and journaling supplies.",
+    "source": "instagram"
+  },
+  {
+    "name": "Bungalow",
+    "area": "New York City",
+    "cuisine": "Indian",
+    "price": "$$$",
+    "tip": "Highly recommended Indian restaurant in NYC known for attentive tableside service.",
+    "source": "instagram"
+  },
+  {
+    "name": "Dhamaka",
+    "area": "New York City",
+    "cuisine": "Indian",
+    "price": "$$$",
+    "tip": "A favourite for its house-made paneer described as buttery soft — a must-order dish when visiting.",
+    "source": "instagram"
+  },
+  {
+    "name": "Adda",
+    "area": "Long Island City, Queens",
+    "cuisine": "Indian",
+    "price": "$$",
+    "tip": "Order the lamb shank which is praised for falling off the bone — this is widely considered one of NYC's best Indian restaurants.",
+    "source": "instagram"
+  },
+  {
+    "name": "Semma",
+    "area": "Greenwich Village",
+    "cuisine": "Indian",
+    "price": "$$$",
+    "tip": "Highlighted as the best spot for South Indian food in NYC — book in advance as it is very popular.",
+    "source": "instagram"
+  },
+  {
+    "name": "Fishs Eddy",
+    "area": "Flatiron",
+    "cuisine": "Home goods / Gift Shop",
+    "price": "$$",
+    "tip": "A beloved NYC shop selling quirky dishware and New York-themed kitchenware including their iconic Greenband Collection and Pigeons of NYC prints.",
+    "source": "instagram"
+  },
+  {
+    "name": "Strand Bookstore",
+    "area": "Greenwich Village",
+    "cuisine": "Bookstore",
+    "price": "$",
+    "tip": "An iconic NYC bookstore selling new, used, and rare books — look out for Joel Holland illustrated prints of the storefront sold at Fishs Eddy.",
+    "source": "instagram"
+  },
+  {
+    "name": "Philip Williams Posters",
+    "area": "Tribeca",
+    "cuisine": "Shop / Gallery",
+    "price": "$$",
+    "tip": "A treasure trove of vintage posters and prints with tons of affordable options to browse through.",
+    "source": "instagram"
+  },
+  {
+    "name": "Super Taste Restaurant",
+    "area": "Chinatown",
+    "cuisine": "Chinese / Noodles / Dumplings",
+    "price": "$",
+    "tip": "Located at 26N Eldridge St, this Chinatown gem is known for $5 dumplings, $4.95 stewed pork, and $7 sesame noodles — one of the best cheap eats spots in the neighbourhood.",
+    "source": "instagram"
+  },
+  {
+    "name": "Super Taste",
+    "area": "Chinatown",
+    "cuisine": "Chinese",
+    "price": "$",
+    "tip": "Order the steamed pork and chive dumplings ($5.25) and sesame noodles ($7) — almost everything on the menu is under $10, located at 26 Eldridge St.",
+    "source": "instagram"
+  },
+  {
+    "name": "Spicy Village",
+    "area": "Chinatown",
+    "cuisine": "Chinese",
+    "price": "$",
+    "tip": "Mentioned as a benchmark for dumplings in Chinatown, worth visiting if you want to compare the best dumplings in the neighbourhood.",
+    "source": "instagram"
+  },
+  {
+    "name": "Lexington Candy Shop",
+    "area": "Upper East Side",
+    "cuisine": "Diner / Bar",
+    "price": "$",
+    "tip": "This old-school luncheonette has been pouring Coca-Cola floats the same way since 1925, making it one of NYC's most nostalgic spots for a classic drink.",
+    "source": "instagram"
+  },
+  {
+    "name": "Ray's Candy Store",
+    "area": "East Village",
+    "cuisine": "Bar / Candy Store",
+    "price": "$",
+    "tip": "A true East Village legend and one of the last places of its kind in the city, perfect for a nostalgic and cheap drink or treat.",
+    "source": "instagram"
+  },
+  {
+    "name": "Fanelli Cafe",
+    "area": "SoHo",
+    "cuisine": "Bar",
+    "price": "$$",
+    "tip": "One of SoHo's oldest bars dating back to 1847 — grab a glass of wine under the iconic red neon sign and soak up the vintage atmosphere.",
+    "source": "instagram"
+  },
+  {
+    "name": "Old Town Bar",
+    "area": "Flatiron / Gramercy",
+    "cuisine": "Bar",
+    "price": "$$",
+    "tip": "A classic NYC bar with original mahogany booths and antique mirrors — order a whisky or scotch to toast over a century of New York history.",
+    "source": "instagram"
+  },
+  {
+    "name": "Monkey Bar",
+    "area": "Midtown",
+    "cuisine": "Cocktail Bar",
+    "price": "$$$",
+    "tip": "A glamorous Midtown institution known for its murals and perfectly chilled martinis — ideal for channelling old-school New York elegance.",
+    "source": "instagram"
+  },
+  {
+    "name": "Apollo Bagels",
+    "area": "West Village",
+    "cuisine": "Bakery",
+    "price": "$",
+    "tip": "Widely considered one of NYC's best bagels — go for the everything bagel with cream cheese and lox, but expect a queue.",
+    "source": "instagram"
+  },
+  {
+    "name": "Culture Espresso",
+    "area": "Midtown",
+    "cuisine": "Café / Bakery",
+    "price": "$$",
+    "tip": "Order their viral chocolate chip cookie, which is praised as one of the best in NYC.",
+    "source": "instagram"
+  },
+  {
+    "name": "L'Industrie Pizzeria",
+    "area": "Williamsburg",
+    "cuisine": "Italian / Pizza",
+    "price": "$$",
+    "tip": "Don't skip the soft serve — it's a hidden gem alongside their widely acclaimed pizza slices.",
+    "source": "instagram"
+  },
+  {
+    "name": "Mama's Too",
+    "area": "Upper West Side",
+    "cuisine": "Italian / Pizza",
+    "price": "$$",
+    "tip": "Try their viral Chicken Alla Vodka pizza slice, which has become one of their most talked-about menu items.",
+    "source": "instagram"
+  },
+  {
+    "name": "Birdbox NYC",
+    "area": "NYC",
+    "cuisine": "Fried Chicken",
+    "price": "$$",
+    "tip": "The fried chicken sandwich is declared a favourite by the reviewer — look out for the Claude sandwich specifically.",
+    "source": "instagram"
+  },
+  {
+    "name": "Gotham Burgers",
+    "area": "NYC",
+    "cuisine": "Burgers",
+    "price": "$$",
+    "tip": "Described as a favourite smash burger spot in NYC, best enjoyed with their classic fries.",
+    "source": "instagram"
+  },
+  {
+    "name": "Via Carota",
+    "area": "West Village",
+    "cuisine": "Italian",
+    "price": "$$$",
+    "tip": "Known for exceptional pasta dishes — the video highlights their noodles as a must-order.",
+    "source": "instagram"
+  },
+  {
+    "name": "Arthur & Sons",
+    "area": "Greenwich Village",
+    "cuisine": "Italian",
+    "price": "$$$",
+    "tip": "Order the rigatoni in tomato sauce — it's one of their standout dishes according to the reel.",
+    "source": "instagram"
+  },
+  {
+    "name": "Soothr",
+    "area": "Midtown East",
+    "cuisine": "Thai",
+    "price": "$$",
+    "tip": "Don't miss the spicy rig and the spumoni dessert — the reviewer says the food rivals authentic Thailand.",
+    "source": "instagram"
+  },
+  {
+    "name": "Sip & Guzzle",
+    "area": "Lower East Side",
+    "cuisine": "Bar",
+    "price": "$$",
+    "tip": "One of the reviewer's favorite bars — try their cocktails and the Hokkaido soft serve dessert.",
+    "source": "instagram"
+  }
+]
