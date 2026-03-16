@@ -239,7 +239,7 @@ div[data-testid="stSelectbox"] > div > div {
 .px-section {
     padding: 18px 16px 8px;
     font-family: 'Press Start 2P', cursive;
-    font-size: 0.42rem; color: var(--dark);
+    font-size: 0.63rem; color: var(--dark);
     letter-spacing: 0.06em;
     display: flex; align-items: center; gap: 10px;
 }
@@ -352,7 +352,7 @@ div[data-testid="stHorizontalBlock"] {
     border-right: 3px solid #111 !important;
     border-bottom: 3px solid #111 !important;
     border-left: none !important;           /* accent left border from .px-card-left */
-    box-shadow: 4px 4px 0 0 #111 !important;
+    box-shadow: 4px 4px 0 0 #111, inset 0 -3px 0 0 #111 !important;
     overflow: visible !important;
     background: var(--cream) !important;
 }
@@ -364,10 +364,22 @@ div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"] {
 div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:first-child {
     flex: 0 0 90% !important;
 }
+/* Strip padding/margin/gap from ALL wrapper layers inside the left column */
 div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:first-child > div,
-div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:first-child > div > div {
+div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:first-child > div > div,
+div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:first-child > div > div > div {
     padding: 0 !important;
+    margin: 0 !important;
     gap: 0 !important;
+    min-height: 0 !important;
+}
+/* Also target by testid in case Streamlit adds stVerticalBlock / stMarkdownContainer */
+div[data-testid="stHorizontalBlock"] [data-testid="stVerticalBlock"],
+div[data-testid="stHorizontalBlock"] [data-testid="stMarkdownContainer"] {
+    padding: 0 !important;
+    margin: 0 !important;
+    gap: 0 !important;
+    min-height: 0 !important;
 }
 /* Right heart strip: absolutely positioned so it ALWAYS fills the full block height */
 div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:last-child {
@@ -604,33 +616,45 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
-# ── JS: fix right-column height via inline styles (beats Streamlit's CSS) ─────
+# ── JS: fix card styles — uses setProperty('important') to beat Streamlit CSS ──
 st.markdown("""
 <img src="x" style="display:none" onerror="(function(){
   var doc=document;
+  function sp(el,p,v){el.style.setProperty(p,v,'important');}
   function fix(){
     doc.querySelectorAll('[data-testid=stHorizontalBlock]').forEach(function(b){
       var cs=b.querySelectorAll(':scope>[data-testid=stColumn]');
       if(cs.length===2){
-        b.style.position='relative';
-        b.style.borderTop='3px solid #111';
-        b.style.borderRight='3px solid #111';
-        b.style.borderBottom='3px solid #111';
-        b.style.borderLeft='none';
-        b.style.boxShadow='4px 4px 0 0 #111';
-        cs[0].style.cssText=cs[0].style.cssText+'flex:0 0 90%!important;max-width:90%!important;';
-        cs[1].style.position='absolute';
-        cs[1].style.top='0'; cs[1].style.right='0';
-        cs[1].style.bottom='0'; cs[1].style.width='10%';
-        cs[1].style.display='flex';
-        cs[1].style.alignItems='center';
-        cs[1].style.justifyContent='center';
-        cs[1].style.borderLeft='none';
-        cs[1].style.background='transparent';
+        sp(b,'position','relative');
+        sp(b,'padding','0');
+        sp(b,'border-top','3px solid #111');
+        sp(b,'border-right','3px solid #111');
+        sp(b,'border-bottom','3px solid #111');
+        sp(b,'border-left','none');
+        sp(b,'box-shadow','4px 4px 0 0 #111');
+        b.querySelectorAll('[data-testid=stVerticalBlock],[data-testid=stMarkdownContainer]').forEach(function(w){
+          sp(w,'padding','0');sp(w,'margin','0');sp(w,'gap','0');sp(w,'min-height','0');
+        });
+        sp(cs[0],'flex','0 0 90%');
+        sp(cs[0],'max-width','90%');
+        sp(cs[1],'position','absolute');
+        sp(cs[1],'top','0');
+        sp(cs[1],'right','0');
+        sp(cs[1],'bottom','0');
+        sp(cs[1],'width','10%');
+        sp(cs[1],'display','flex');
+        sp(cs[1],'align-items','center');
+        sp(cs[1],'justify-content','center');
+        sp(cs[1],'border-left','none');
+        sp(cs[1],'background','transparent');
       }
     });
   }
-  if(!window._hObs){window._hObs=new MutationObserver(fix);window._hObs.observe(doc.body,{subtree:true,childList:true});}
+  if(!window._hObs){
+    window._hObs=new MutationObserver(fix);
+    window._hObs.observe(doc.body,{subtree:true,childList:true,attributes:true,attributeFilter:['style','class']});
+  }
+  if(!window._hInt){window._hInt=setInterval(fix,300);}
   fix();
 })();">
 """, unsafe_allow_html=True)
